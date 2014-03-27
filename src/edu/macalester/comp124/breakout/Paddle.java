@@ -6,7 +6,7 @@ import acm.graphics.GRect;
 import java.awt.*;
 
 /**
- * Created by Reena on 3/16/14.
+ * Paddle constructs a default GRect
  */
 public class Paddle extends GCompound {
     public Paddle() {
