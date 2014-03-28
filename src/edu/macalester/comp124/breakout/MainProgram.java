@@ -56,7 +56,7 @@ public class MainProgram extends GraphicsProgram {
             } else if ((d != null) && (d != paddle)) {
                 remove(d);
                 index2 += 1;
-            } else if (index1 + index2 == 7) {
+            } else if (index1 + index2 == 70) {
                 GLabel win = new GLabel("YOU WIN! :D");
                 add(win, getWidth()/4, (getHeight()-win.getHeight())/ 2);
                 win.setColor(Color.BLUE);
